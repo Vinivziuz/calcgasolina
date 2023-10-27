@@ -1,0 +1,12 @@
+body {
+    font-family: trebuchet ms, sans-serif;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.centro{
+    text-align: center;
+    margin: 5%;
+    width: inherit;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Combustível</title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body background="img/bg.png">
+    <div class="centro">
+    <h1>Calculando Combustível</h1>
+    
+    <img src="img/normal.png" id="imagem" size="20px" width="400">
+   
+    <form name="frdados">
+        <input type="text" name="txetanol" size="10px" placeholder="Etanol" autofocus>
+        <input type="text" name="txgasolina" size="10px" placeholder="Gasolina">
+        <input type="button" value="Calcular" onclick="melhor()">
+        <input type="reset" value="Limpar" onclick="limpar()">
+    </form>
+
+    <br>
+    <audio controls>
+        <source src="Gasolina.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+</body>
+</html>
